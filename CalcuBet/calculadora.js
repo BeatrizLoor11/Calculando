@@ -16,10 +16,14 @@ function calcular(){
     resta(a,b)
     division(a,b)
     RaizCuadrada(c)
+    multiplica(a,b)
 }
 
 function suma(numeroA, numeroB){
     console.log(numeroA + numeroB);
+}
+function multiplica(numeroA,numeroB){
+    console.log(numeroA * numeroB)
 }
 
 function resta(numeroA, numeroB){
@@ -36,3 +40,4 @@ function RaizCuadrada(constc){
 }
 
 calcular();
+
